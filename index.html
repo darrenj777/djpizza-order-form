@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><djpizza-order-form></djpizza-order-form></title>
+</head>
+<body>
+    <h1>DJPIZZA Order Form</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  
+  <label for="pizza size">Choose a Size:</label>
+<select id="pizza size" name="pizza size">
+  <option value="small">Small</option>
+  <option value="medium">Medium</option>
+  <option value="large">Large</option></select>
+  <br><br>
+<h3>Toppings</h3>
+  <input type="checkbox" id="Pepperoni" name="Pepperoni" value="Pepperoni">
+<label for="Pepperoni"> Pepperoni</label><br>
+<input type="checkbox" id="Sausage" name="Sausage" value="Sausage">
+<label for="Sausage"> Sausage<br>
+<input type="checkbox" id="Mushrooms" name="Mushrooms" value="Mushrooms">
+<label for="Mushrooms"> Mushrooms</label><br>
+
+<h3>Delivery Directions</h3>
+<p>Please provide brief but detailed delivery instructions, if neccessary.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+<h2>Past Orders</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Size</th>
+    <th>Toppings</th>
+  <th>Special Instructions<th>
+  </tr>
+  <tr>
+    <td>Darren Johnson</td>
+    <td>Large</td>
+     <td>Pepperoni</td>
+     <td>None.</td>
+  </tr>
+  <tr>
+    <td>DJ Johnson</td>
+    <td>Medium</td>
+    <td>Mushroom</td>
+    <td>Park in back.</td>
+  </tr>
+  <tr>
+    <td>D Johnson</td>
+    <td>Large</td>
+    <td>Sausage</td>
+    <td>Ring Doorbell.</td>
+  </tr>
+
+ 
+</table>
+  
+  
+  
+  
+</form> 
+    
+</body>
+</html>
