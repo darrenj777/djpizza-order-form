@@ -22,6 +22,8 @@ Include:
 • Special Instructions
 Add at least 3 rows of pretend orders to the table.
 
+Updated page for CSS project 3
+
 
 
 
